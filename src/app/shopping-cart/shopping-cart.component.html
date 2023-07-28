@@ -1,0 +1,58 @@
+<button (click)="back()">Home</button>
+<div *ngIf="products" class="shopping">
+  <div *ngFor="let product of products">
+    <div class="item">
+      <div class="cart-item-thumb" href="">
+        <img [src]="product.imageURL" alt="Product" />
+      </div>
+      <div class="details">
+        <h3>
+          {{ product.productName }}
+        </h3>
+        <div><span>Brand: </span>{{ product.brandName }}</div>
+        <div><span>Qty: </span>{{ product.quantity }}</div>
+        <div><span>MRP: Rs </span>{{ product.price }}</div>
+
+        <div>
+          <button
+            [disabled]="product.quantity > 0"
+            (click)="add(product)"
+            type="button"
+          >
+            Add to Cart
+          </button>
+          <div *ngIf="product.quantity != 0">
+            <button type="text" (click)="increaseItem(product)">+</button>
+            {{ product.quantity }}
+            <button (click)="decreaseItem(product)" type="button">-</button>
+          </div>
+        </div>
+        <div>
+          <span>Total Amount: Rs </span>{{ product.price * product.quantity }}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <button
+      class="btn-checkout"
+      (click)="getTotal()"
+      (click)="dialog.showModal()"
+      type="button"
+    >
+      Checkout
+    </button>
+  </div>
+</div>
+
+<dialog #dialog>
+  <div *ngIf="totalItems === 1; else multiple">
+    Price Details ({{ totalItems }} Item)
+  </div>
+  <ng-template #multiple>Price Details ({{ totalItems }} Items)</ng-template>
+  <div>Total Amount: Rs {{ totalPrice }}</div>
+  <div>
+    <button (click)="dialog.close()" (click)="confirmationPopup()">OK</button>
+    <button (click)="dialog.close()">Cancel</button>
+  </div>
+</dialog>

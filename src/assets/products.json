@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "brandName": "Dell",
+    "productName": "Laptop1",
+    "quantity": "0",
+    "price": 200,
+    "MRF": "fff",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  },
+  {
+    "id": "2",
+    "brandName": "Lenovo",
+    "productName": "Laptop2",
+    "quantity": "0",
+    "price": 100,
+    "MRF": "",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  },
+  {
+    "id": "3",
+    "brandName": "Apple",
+    "productName": "Laptop3",
+    "quantity": "0",
+    "price": 100,
+    "MRF": "",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  },
+  {
+    "id": "4",
+    "brandName": "Sony",
+    "productName": "Laptop4",
+    "quantity": "0",
+    "price": 100,
+    "MRF": "",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  },
+  {
+    "id": "5",
+    "brandName": "HP",
+    "productName": "Laptop5",
+    "quantity": "0",
+    "price": 100,
+    "MRF": "",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  },
+  {
+    "id": "6",
+    "brandName": "Asus",
+    "productName": "Laptop6",
+    "quantity": "0",
+    "price": 100,
+    "MRF": "",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  },
+  {
+    "id": "7",
+    "brandName": "Acer",
+    "productName": "Laptop7",
+    "quantity": "0",
+    "price": 100,
+    "MRF": "",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  },
+  {
+    "id": "8",
+    "brandName": "MSI",
+    "productName": "Laptop2",
+    "quantity": "0",
+    "price": 100,
+    "MRF": "",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  },
+  {
+    "id": "9",
+    "brandName": "Samsung",
+    "productName": "Laptop9",
+    "quantity": "0",
+    "price": 100,
+    "MRF": "",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  },
+  {
+    "id": "10",
+    "brandName": "Toshiba",
+    "productName": "Laptop10",
+    "quantity": "0",
+    "price": 100,
+    "MRF": "",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  },
+  {
+    "id": "11",
+    "brandName": "Microsoft",
+    "productName": "Laptop11",
+    "quantity": "0",
+    "price": 100,
+    "MRF": "",
+    "imageURL": "https://res.cloudinary.com/dz4tt9omp/image/upload/v1660869096/laptop.png",
+    "offerText": ""
+  }
+]
